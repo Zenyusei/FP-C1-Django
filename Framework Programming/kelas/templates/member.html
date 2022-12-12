@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %} ItemGameStore {% endblock %}
+
+{% block content %}
+{% load static %}
+<div class="container">
+    <table class="table table-striped">
+
+
+        <h2 class="align-center">Daftar Member</h2>
+            <tr>
+                <th>Email</th>
+                <th>Username</th>
+                <th>Status</th>
+                <th>Join</th>
+                <th>Subscribe</th>
+            </tr>
+            {% for Member in members %}
+            <tr>
+                <td>{{ Member.email }}</td>
+                <td>{{ Member.username }}</td>
+                <td>{{ Member.status }}</td>
+                <td>{{ Member.join_date }}</td>
+                <td>{{ Member.subscribe }}</td>
+
+            </tr>
+            {% endfor %}
+            
+    </table>
+</div>
+{% endblock %}

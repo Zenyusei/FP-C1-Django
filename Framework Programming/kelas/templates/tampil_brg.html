@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %} ItemGameStore {% endblock %}
+
+{% block content %}
+{% load static %}
+<div class="container">
+    <table class="table table-striped">
+
+
+        <h2 class="align-center">Available Items</h2>
+            <tr>
+                <th>Kode</th>
+                <th>Nama</th>
+                <th>Stok</th>
+                <th>Harga</th>
+                <th>Tipe</th>
+            </tr>
+            {% for Barang in barangs %}
+            <tr>
+                <td>{{ Barang.kodebrg }}</td>
+                <td>{{ Barang.nama }}</td>
+                <td>{{ Barang.stok }}</td>
+                <td>{{ Barang.harga }}</td>
+                <td>{{ Barang.tipe_brg }}</td>
+            </tr>
+            {% endfor %}
+            
+    </table>
+</div>
+{% endblock %}
