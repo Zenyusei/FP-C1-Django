@@ -1,0 +1,6 @@
+1. REST API
+adalah interface yang digunakan oleh dua sistem komputer untuk bertukar informasi secara aman melalui jaringan internet. Sebagian besar aplikasi bisnis harus berkomunikasi dengan aplikasi internal dan pihak ketiga lainnya untuk melakukan berbagai tugas misalnya, untuk menghasilkan slip gaji bulanan, sistem akun internal Anda harus berbagi data dengan sistem perbankan pelanggan Anda untuk mengotomatiskan tagihan dan berkomunikasi dengan aplikasi absensi internal. REST API mendukung pertukaran informasi ini karena mengikuti standar komunikasi perangkat lunak yang aman, andal, dan efisien.
+
+3. Headless Architecture
+adalah konsep pengembangan software yang memisahkan lapisan frontend (interface pengguna – UI) dan lapisan backend (logika bisnis) situs web. Dengan cara ini, sebagian besar bisnis dewasa mendapatkan kemampuan manuver dan fleksibilitas dari sebuah startup. Pada prinsipnya sistem headless mencakup serangkaian solusi seperti frontend headless, platform headless commerce, CMS headless, pencarian atau pembayaran. Industri eCommerce sebagian besar menganut konsep headless architecture, oleh karena itu muncullah istilah headless commerce. Manfaat Headless Architecture yaitu: Lapisan Presentasi Terpisah, Multi Saluran
+Pengalaman Pelanggan yang Ditingkatkan, Waktu Load Cepat, Keunggulan Kompetitif.
